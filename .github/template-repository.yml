@@ -1,0 +1,29 @@
+# Template repository configuration
+# This file configures how the template repository works
+
+# Template repository settings
+template:
+  # Repository description
+  description: "Template for project documentation with standardized structure"
+  
+  # Topics/tags for the template
+  topics:
+    - documentation
+    - template
+    - markdown
+    - project-template
+    - docs
+  
+  # Default branch
+  default_branch: main
+  
+  # Template files to include
+  include_all_branches: false
+  
+  # Files to exclude from template
+  exclude:
+    - .git/
+    - node_modules/
+    - vendor/
+    - *.log
+    - .DS_Store
